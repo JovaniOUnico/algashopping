@@ -3,7 +3,7 @@ import { createStore, combineReducers } from 'redux'
 import {persistStore, persistReducer} from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 
-import CalculatorReducer from './calculator/Calculator.reducer'
+import CalculatorReducer from './Calculator/Calculator.reducer'
 import ProductsReducer from './Products/Products.reducer'
 
 const rootReducer = combineReducers({
